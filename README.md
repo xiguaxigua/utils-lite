@@ -1,2 +1,2 @@
-# js-multi-fnc
- 工具函数
+# utils-lite
+轻量级工具函数
