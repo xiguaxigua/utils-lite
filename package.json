@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rollup -wc build/watch.js",
-    "build": "rm -f -r lib && node build/build.js"
+    "build": "rm -f -r lib && node build/build.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
