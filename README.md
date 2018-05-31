@@ -47,6 +47,17 @@ debounce(<fn>, <delay>)
 throttle(<fn>, <wait>, [delay])
 ```
 
+### get
+```js
+get(<target>, <path>, [default])
+```
+> path format: 'a.b.c'
+
+### set
+```js
+set(<target>, <path>, <value>)
+```
+
 ## License
 
 MIT
