@@ -1,6 +1,6 @@
 # utils-lite
 
-> smaller js utils function
+> smaller js utils
 
 ![download](https://img.shields.io/npm/dm/utils-lite.svg)
 ![version](https://img.shields.io/npm/v/utils-lite.svg)
@@ -11,6 +11,28 @@
 ## Install
 
 `npm i utils-lite -S`
+
+## Start
+
+#### use npm
+
+```js
+import { debounce } from 'utils-lite'
+debounce(() => {
+  // code...
+}, 1000)
+```
+
+#### use cdn 
+
+```html
+<script src="https://unpkg.com/utils-lite@0.0.4/lib/index.umd.min.js"></script>
+<script>
+UtilsLite.debounce(function () {
+  // code ...
+}, 1000)
+</script>
+```
 
 ## Utils List
 
