@@ -1,7 +1,3 @@
-# utils-lite
-
-> smaller js utils
-
 ![download](https://img.shields.io/npm/dm/utils-lite.svg)
 ![version](https://img.shields.io/npm/v/utils-lite.svg)
 ![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/utils-lite.svg)
