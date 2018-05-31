@@ -18,6 +18,7 @@
 
 ```js
 import { debounce } from 'utils-lite'
+// commonjs package is 'utils-lite/lib/index.common.js'
 debounce(() => {
   // code...
 }, 1000)
@@ -26,7 +27,7 @@ debounce(() => {
 #### use cdn 
 
 ```html
-<script src="https://unpkg.com/utils-lite@0.0.4/lib/index.umd.min.js"></script>
+<script src="https://unpkg.com/utils-lite/lib/index.umd.min.js"></script>
 <script>
 UtilsLite.debounce(function () {
   // code ...
