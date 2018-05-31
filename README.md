@@ -39,7 +39,12 @@ UtilsLite.debounce(function () {
 
 ### debounce
 ```js
-debounce(fn, delay)
+debounce(<fn>, <delay>)
+```
+
+### throttle
+```js
+throttle(<fn>, <wait>, [delay])
 ```
 
 ## License
