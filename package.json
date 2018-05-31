@@ -1,7 +1,7 @@
 {
   "name": "utils-lite",
   "version": "0.0.10",
-  "description": "轻量级工具函数",
+  "description": "utils for smaller and convenient ",
   "main": "lib/index.es.js",
   "scripts": {
     "dev": "rollup -wc build/watch.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiguaxigua/js-multi-fnc.git"
+    "url": "git+https://github.com/xiguaxigua/utils-lite.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xiguaxigua/js-multi-fnc/issues"
+    "url": "https://github.com/xiguaxigua/utils-lite/issues"
   },
-  "homepage": "https://github.com/xiguaxigua/js-multi-fnc#readme",
+  "homepage": "http://daxigua.me/utils-lite",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
