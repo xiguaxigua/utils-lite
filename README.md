@@ -18,7 +18,7 @@
 
 ```js
 import { debounce } from 'utils-lite'
-// commonjs package is 'utils-lite/lib/index.common.js'
+// commonjs package is 'utils-lite/lib/index.cjs.js'
 debounce(() => {
   // code...
 }, 1000)
