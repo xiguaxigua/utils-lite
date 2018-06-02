@@ -8,7 +8,7 @@
 
 `npm i utils-lite -S`
 
-## Start
+## Start JS
 
 #### use npm
 
@@ -31,7 +31,32 @@ UtilsLite.debounce(function () {
 </script>
 ```
 
-## Utils List
+## Start CSS
+
+Now css utils package has three file type: less, sass, stylus as `index.less`/
+`index.sass`/`index.styl`, you can choose one and import to you project, for example
+
+```less
+@import 'project-path/node_modules/utils-lite/index.less';
+.test {
+  .text-ellipsis
+}
+```
+
+```less
+@import 'project-path/node_modules/utils-lite/index.sass';
+.test {
+  @include text-ellipsis;
+}
+```
+
+```less
+@import 'project-path/node_modules/utils-lite/index.styl';
+.test
+  text-ellipsis();
+```
+
+## JS Utils List
 
 ### debounce
 ```js
@@ -52,6 +77,16 @@ get(<target>, <path>, [default])
 ### set
 ```js
 set(<target>, <path>, <value>)
+```
+
+## CSS Utils List
+
+### text-ellipsis
+
+```less
+.target {
+  .text-ellipsis
+}
 ```
 
 ## License

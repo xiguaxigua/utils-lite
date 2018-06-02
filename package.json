@@ -5,6 +5,7 @@
   "main": "lib/index.es.js",
   "scripts": {
     "dev": "rollup -wc build/watch.js",
+    "dev:css": "node build/dev-css",
     "build": "rm -f -r lib && node build/build.js",
     "prepublishOnly": "npm run build"
   },
@@ -28,6 +29,7 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
+    "less-packer": "0.0.3",
     "rollup": "^0.59.4",
     "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-commonjs": "^9.1.3",

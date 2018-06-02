@@ -6,6 +6,17 @@ const eslint = require('rollup-plugin-eslint')
 const minify = require('uglify-es').minify
 const resolve = require('rollup-plugin-node-resolve')
 const common = require('rollup-plugin-commonjs')
+const LessPacker = require('less-packer')
+
+LessPacker({
+  entry: 'src/css/index.less',
+  output: 'lib/index.less',
+  dev: false,
+  testOutput: 'dest/index.css',
+  testFile: 'src/css/test.less',
+  watchDir: 'src/css',
+  format: ['sass', 'stylus']
+})
 
 for (let i = 0; i < 2; i++) {
   const plugins = [
@@ -16,7 +27,7 @@ for (let i = 0; i < 2; i++) {
   ]
   if (i) plugins.push(uglify({}, minify))
   rollup.rollup({
-    input: 'src/index.js',
+    input: 'src/js/index.js',
     plugins
   }).then(bundle => {
     for (let j = 0; j < 3; j++) {
