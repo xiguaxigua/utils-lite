@@ -124,11 +124,11 @@ setStore(<key>, <value>)
 }
 ```
 
-### text-loading([time])
+### text-loading
 
 ```less
 .target {
-  .text-loading(2s)
+  .text-loading([time])
 }
 ```
 
