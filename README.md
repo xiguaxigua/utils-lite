@@ -79,6 +79,41 @@ get(<target>, <path>, [default])
 set(<target>, <path>, <value>)
 ```
 
+### clone
+```js
+clone(<target>)
+```
+
+### cloneDeep
+```js
+cloneDeep(<target>)
+```
+
+### getType
+```js
+getType(<target>)
+```
+
+### isObject
+```js
+isObject(<target>)
+```
+
+### isArray
+```js
+isArray(<target>)
+```
+
+### getStore
+```js
+getStore(<key>)
+```
+
+### setStore
+```js
+setStore(<key>, <value>)
+```
+
 ## CSS Utils List
 
 ### text-ellipsis
@@ -86,6 +121,14 @@ set(<target>, <path>, <value>)
 ```less
 .target {
   .text-ellipsis
+}
+```
+
+### text-loading([time])
+
+```less
+.target {
+  .text-loading(2s)
 }
 ```
 
