@@ -9,3 +9,7 @@ export function isObject (v) {
 export function isArray (v) {
   return getType(v) === '[object Array]'
 }
+
+export function isFunction (v) {
+  return getType(v) === '[object Function]'
+}
