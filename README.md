@@ -104,6 +104,11 @@ isObject(<target>)
 isArray(<target>)
 ```
 
+### isFunction
+```js
+isFunction(<target>)
+```
+
 ### getStore
 ```js
 getStore(<key>)
@@ -113,6 +118,17 @@ getStore(<key>)
 ```js
 setStore(<key>, <value>)
 ```
+
+### kebabToCamel
+```js
+kebabToCamel(<key>)
+```
+
+### camelToKebab
+```js
+camelToKebab(<key>)
+```
+
 
 ## CSS Utils List
 
