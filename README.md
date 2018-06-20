@@ -129,6 +129,11 @@ kebabToCamel(<key>)
 camelToKebab(<key>)
 ```
 
+### unique
+```js
+unique(<array>)
+```
+
 
 ## CSS Utils List
 
