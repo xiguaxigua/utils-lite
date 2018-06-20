@@ -134,6 +134,11 @@ camelToKebab(<key>)
 unique(<array>)
 ```
 
+### getLinearValue
+```js
+getLinearValue(<x1>, <y1>, <x2>, <y2>, [x3])
+```
+
 
 ## CSS Utils List
 
