@@ -13,3 +13,19 @@ export function isArray (v) {
 export function isFunction (v) {
   return getType(v) === '[object Function]'
 }
+
+export function isString (v) {
+  return getType(v) === '[object String]'
+}
+
+export function isBoolean (v) {
+  return getType(v) === '[object Boolean]'
+}
+
+export function isEmptyObj (v) {
+  return isObject(v) && !Object.keys(v).length
+}
+
+export function isNumber (v) {
+  return getType(v) === '[object Number]'
+}

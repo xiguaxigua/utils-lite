@@ -109,6 +109,26 @@ isArray(<target>)
 isFunction(<target>)
 ```
 
+### isString
+```js
+isString(<target>)
+```
+
+### isBoolean
+```js
+isBoolean(<target>)
+```
+
+### isEmptyObj
+```js
+isEmptyObj(<target>)
+```
+
+### isNumber
+```js
+isNumber(<target>)
+```
+
 ### getStore
 ```js
 getStore(<key>)
