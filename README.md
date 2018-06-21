@@ -173,6 +173,21 @@ arrDelItem(<array>, <diffItem>)
 arrDelArrItem(<array>, <diffArrayItem>)
 ```
 
+### toArray
+```js
+toArray(<arrayLike>)
+```
+
+### getArrayMin
+```js
+getArrayMin(<array>)
+```
+
+### getArrayMax
+```js
+getArrayMax(<array>)
+```
+
 
 ## CSS Utils List
 
