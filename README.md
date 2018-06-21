@@ -138,6 +138,20 @@ unique(<array>)
 ```js
 getLinearValue(<x1>, <y1>, <x2>, <y2>, [x3])
 ```
+### getFnAndObjValue
+```js
+getFnAndObjValue(<function|object>, <key>)
+```
+
+### arrDelItem
+```js
+arrDelItem(<array>, <diffItem>)
+```
+
+### arrDelArrItem
+```js
+arrDelArrItem(<array>, <diffArrayItem>)
+```
 
 
 ## CSS Utils List
