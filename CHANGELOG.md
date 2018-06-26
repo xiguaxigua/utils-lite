@@ -1,3 +1,13 @@
+<a name="0.1.10"></a>
+## [0.1.10](https://github.com/xiguaxigua/utils-lite/compare/v0.1.9...v0.1.10) (2018-06-26)
+
+
+### Features
+
+* **js:** add extend isEqual methods ([61f24ad](https://github.com/xiguaxigua/utils-lite/commit/61f24ad))
+
+
+
 <a name="0.1.9"></a>
 ## [0.1.9](https://github.com/xiguaxigua/utils-lite/compare/v0.1.8...v0.1.9) (2018-06-21)
 
