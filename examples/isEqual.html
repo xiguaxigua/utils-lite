@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../dist/index.js"></script>
+</head>
+<body>
+  <script>
+    console.log(UtilsLite.isEqual({ a: 1 }, { a: 1 }))
+    console.log(UtilsLite.isEqual({ a: 1 }, { b: 2 }))
+    console.log(UtilsLite.isEqual({ a: { a: 1 } }, { a: { a: 1 } }))
+    console.log(UtilsLite.isEqual({ a: { a: 1 } }, { a: { a: 2 } }))
+    console.log(UtilsLite.isEqual({ a: {} }, { a: { a: undefined } }))
+    console.log(UtilsLite.isEqual({ a: { a: [1] } }, { a: { a: [1] } }))
+    console.log(UtilsLite.isEqual({ a: { a: [1,2,3] } }, { a: { a: [1,2,4] } }))
+    console.log('---')
+    function a () {}
+    console.log(UtilsLite.isEqual(null, null))
+    console.log(UtilsLite.isEqual(undefined, undefined))
+    console.log(UtilsLite.isEqual(1, 1))
+    console.log(UtilsLite.isEqual(true, true))
+    console.log(UtilsLite.isEqual('a', 'a'))
+    console.log(UtilsLite.isEqual([1, 2, 3], [1, 2, 3]))
+    console.log(UtilsLite.isEqual({ a: 1 }, { a: 1 }))
+    console.log(UtilsLite.isEqual({ a }, { a }))
+    console.log('-----')
+    console.log(UtilsLite.isEqual(function () {}, function () {}))
+    console.log(UtilsLite.isEqual(null, 2))
+    console.log(UtilsLite.isEqual(undefined, 2))
+    console.log(UtilsLite.isEqual(1, 2))
+    console.log(UtilsLite.isEqual(true, 2))
+    console.log(UtilsLite.isEqual('a', 2))
+    console.log(UtilsLite.isEqual([1, 2, 3], 2))
+    console.log(UtilsLite.isEqual({ a: 1 }, 2))
+    console.log(UtilsLite.isEqual(function () {}, 2))
+  </script>
+</body>
+</html>

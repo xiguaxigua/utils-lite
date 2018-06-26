@@ -2,6 +2,10 @@ export function getType (v) {
   return Object.prototype.toString.call(v)
 }
 
+export function getTypeof (v) {
+  return typeof v
+}
+
 export function isObject (v) {
   return getType(v) === '[object Object]'
 }

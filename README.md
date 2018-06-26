@@ -94,6 +94,11 @@ cloneDeep(<target>)
 getType(<target>)
 ```
 
+### getTypeof
+```js
+getTypeof(<target>)
+```
+
 ### isObject
 ```js
 isObject(<target>)
@@ -183,10 +188,22 @@ toArray(<arrayLike>)
 getArrayMin(<array>)
 ```
 
-### getArrayMax
+### extend
 ```js
-getArrayMax(<array>)
+extend(<sourceObj>, [otherObj])
 ```
+
+### hasOwn
+```js
+hasOwn(<target>)
+```
+
+### isEqual
+```js
+isEqual(<alice>, <bob>)
+```
+
+
 
 
 ## CSS Utils List
