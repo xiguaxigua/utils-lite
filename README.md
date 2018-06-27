@@ -203,7 +203,10 @@ hasOwn(<target>)
 isEqual(<alice>, <bob>)
 ```
 
-
+### chunk
+```js
+chunk(<array>, <number>)
+```
 
 
 ## CSS Utils List
