@@ -1,3 +1,13 @@
+<a name="0.1.11"></a>
+## [0.1.11](https://github.com/xiguaxigua/utils-lite/compare/v0.1.10...v0.1.11) (2018-06-27)
+
+
+### Bug Fixes
+
+* **js:** get error ([e604aac](https://github.com/xiguaxigua/utils-lite/commit/e604aac))
+
+
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://github.com/xiguaxigua/utils-lite/compare/v0.1.9...v0.1.10) (2018-06-26)
 
