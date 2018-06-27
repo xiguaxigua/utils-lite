@@ -1,3 +1,13 @@
+<a name="0.1.12"></a>
+## [0.1.12](https://github.com/xiguaxigua/utils-lite/compare/v0.1.11...v0.1.12) (2018-06-27)
+
+
+### Bug Fixes
+
+* **js:** get error ([82adbfa](https://github.com/xiguaxigua/utils-lite/commit/82adbfa))
+
+
+
 <a name="0.1.11"></a>
 ## [0.1.11](https://github.com/xiguaxigua/utils-lite/compare/v0.1.10...v0.1.11) (2018-06-27)
 
