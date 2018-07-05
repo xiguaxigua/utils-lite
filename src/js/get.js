@@ -1,5 +1,5 @@
 export function get (target, path, defaultValue) {
-  if (!path || !target) return target
+  if (path == null || !target) return target
   const pathArr = path.split ? path.split('.') : [path]
   let targetTemp = target
   pathArr.some((item, index) => {
