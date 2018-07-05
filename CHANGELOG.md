@@ -1,3 +1,13 @@
+<a name="0.1.14"></a>
+## [0.1.14](https://github.com/xiguaxigua/utils-lite/compare/v0.1.13...v0.1.14) (2018-07-05)
+
+
+### Bug Fixes
+
+* **js:** get function path 0 error ([33612bf](https://github.com/xiguaxigua/utils-lite/commit/33612bf))
+
+
+
 <a name="0.1.13"></a>
 ## [0.1.13](https://github.com/xiguaxigua/utils-lite/compare/v0.1.12...v0.1.13) (2018-06-27)
 
