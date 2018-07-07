@@ -1,3 +1,18 @@
+<a name="0.1.15"></a>
+## [0.1.15](https://github.com/xiguaxigua/utils-lite/compare/v0.1.14...v0.1.15) (2018-07-07)
+
+
+### Bug Fixes
+
+* **js:** get function path 0 error ([33612bf](https://github.com/xiguaxigua/utils-lite/commit/33612bf))
+
+
+### Features
+
+* **js:** add chunk ([4705787](https://github.com/xiguaxigua/utils-lite/commit/4705787))
+
+
+
 <a name="0.1.14"></a>
 ## [0.1.14](https://github.com/xiguaxigua/utils-lite/compare/v0.1.12...v0.1.14) (2018-07-07)
 
