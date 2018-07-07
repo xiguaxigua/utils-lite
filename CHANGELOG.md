@@ -1,3 +1,13 @@
+<a name="0.1.14"></a>
+## [0.1.14](https://github.com/xiguaxigua/utils-lite/compare/v0.1.12...v0.1.14) (2018-07-07)
+
+
+### Bug Fixes
+
+* **clone:** clone support more type ([f3c9fdd](https://github.com/xiguaxigua/utils-lite/commit/f3c9fdd))
+
+
+
 <a name="0.1.12"></a>
 ## [0.1.12](https://github.com/xiguaxigua/utils-lite/compare/v0.1.11...v0.1.12) (2018-06-27)
 
