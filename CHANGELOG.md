@@ -5,6 +5,17 @@
 ### Bug Fixes
 
 * **clone:** clone support more type ([f3c9fdd](https://github.com/xiguaxigua/utils-lite/commit/f3c9fdd))
+* **js:** get function path 0 error ([33612bf](https://github.com/xiguaxigua/utils-lite/commit/33612bf))
+
+
+
+<a name="0.1.13"></a>
+## [0.1.13](https://github.com/xiguaxigua/utils-lite/compare/v0.1.12...v0.1.13) (2018-06-27)
+
+
+### Features
+
+* **js:** add chunk ([4705787](https://github.com/xiguaxigua/utils-lite/commit/4705787))
 
 
 
