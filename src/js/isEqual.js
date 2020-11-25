@@ -26,7 +26,7 @@ export function isEqual (alice, bob) {
   }
   for (let key in bob) {
     if (!hasOwn(bob, key)) continue
-    if (getTypeof(alice)[key] === 'undefined') return false
+    if (getTypeof(alice[key]) === 'undefined') return false
   }
 
   return true
